@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css"><!-- New Stuff -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cafe Corner | Loading </title>
+</head>
+<body>
+       <!-- Here Start -->
+   <div class="bg wow fadeOut" data-wow-duration="1.5s" data-wow-delay="3s">
+    <div class="logoBox">
+        <div class="imageStain wow rotateIn" data-wow-duration="2s">
+            <a href="forside.html"><img src="images/PopupLogo/Cafe_Corner_stain.svg" /> </a>
+        </div>
+        <div class="imageCup wow fadeIn" data-wow-delay=".5s" data-wow-duration="2s">
+            <a href="forside.html"><img src="images/PopupLogo/Cafe_Corner_cup.svg" /> </a>
+        </div>
+        <div class="imageText wow fadeInUp" data-wow-delay="1.5s" data-wow-duration=".5s">
+            <a href="forside.html"><img src="images/PopupLogo/Cafe_Corner.svg" /> </a>
+        </div>
+    </div>
+</div>
+<!-- Here Stop -->
+</body>
+</html>
+<!--Here new stuff-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="wow.min.js"></script>
+<script>
+    new WOW().init();
+
+    setTimeout(function () {
+        $('.bg').fadeout('fast');
+    }, 60000000000000000000000000000000); // <-- time in milliseconds
+
+</script>
